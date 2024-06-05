@@ -63,8 +63,8 @@
     background-color: #57a617;
     height: 100vh;
     width: 20vw;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0 0px 15px 0;
+    position: fixed;
 }
 
 
@@ -82,7 +82,7 @@
 }
 
 .header_section-upper{
-    gap: 16rem;
+    gap: 10rem;
     align-items: center;
 }
 
@@ -90,7 +90,9 @@
 .header_section{
     padding: 1rem 3rem;
     box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
-    width: 100vw;
+    width: 79vw;
+    z-index: 4;
+    position: relative;
 }
 
 .header_search
@@ -183,5 +185,114 @@
 }
 
 .profile_buttons{
-    margin-left: 25rem;
+    margin-left: 20rem;
+}
+
+
+.card_background{
+    background-color: #6bc220;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    height: 200px;
+    transition: 0.3s ease;
+}
+
+.card_background:hover{
+    transform: scale(1.02);
+    background-color: #aaea6c;
+}
+
+.card_template{
+    background-color: white;
+    margin-left: 0.5rem;
+    border-radius: 0 10px 10px 0;
+    height: 200px;
+    padding: 1.5rem 1.5rem ;
+}
+
+
+.card_template>*{
+    margin-bottom: 1rem;
+}
+
+.card_title{
+    font-weight: 800;
+    font-size: 1.1rem;
+}
+
+.card_description{
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(92, 92, 92);
+    padding-right:2rem ;
+}
+
+
+.card_icons{
+    justify-content: flex-end;
+    padding-top: 1rem;
+    gap: 1rem;
+    
+}
+
+
+.card_icon:hover{
+    color: #6bc220;
+}
+.card_icon{
+    color: black;
+    font-size: 1.4rem;
+    transition: 0.3s ease;
+}
+
+
+.tasks_cards{
+    display: grid;
+    grid-template-columns: 370px 370px ;
+    margin-top: 2rem;
+    gap: 1.8rem;
+}
+
+.home_section{
+    background-color: #f6ffee;
+    padding: 1rem;
+    z-index: -1;
+}
+
+.section_title{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.main_section{
+    margin-left: 20vw;
+}
+
+.section_social{
+    padding: 0 2.5rem;
+}
+
+.announcement_title{
+    font-weight: 700;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.announcement_description{
+    font-weight: 300;
+    font-size: 0.7rem;
+    color: rgb(112, 112, 112);
+}
+
+.announcements_card{
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+hr{
+    margin: 1rem 0;
 }
