@@ -37,6 +37,7 @@
 
 .dashboard_title{
     color: white;
+    margin-right: 3.5rem;
 }
 
 .sidebar_section-user, .sidebar_section-support{
@@ -64,4 +65,123 @@
     width: 20vw;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0 0px 15px 0;
+}
+
+
+.profile_pic-upper{
+    width: 50px;
+}
+
+.profile_pic-lower{
+    width: 70px;
+}
+
+.search_icon, .bell_icon{
+    color: black;
+    font-size: 1.2rem;
+}
+
+.header_section-upper{
+    gap: 16rem;
+    align-items: center;
+}
+
+
+.header_section{
+    padding: 1rem 3rem;
+    box-shadow: 0 4px 4px -2px rgba(0, 0, 0, 0.2);
+    width: 100vw;
+}
+
+.header_search
+{
+    background-color: rgb(183, 247, 167);
+    border: none;
+    width: 35vw;
+    height: 28px;
+    border-radius: 20px;
+    transition: 0.3s ease;
+}
+
+.header_search:hover{
+    background-color: white;
+    color: #6bc220;
+    border: 1px solid #6bc220;
+}
+
+.search_icon{
+    transition: 0.3s ease;
+}
+
+.search_icon:hover{
+    color: #6bc220;
+}
+
+.bell_icon{
+    font-size: 1.6rem;
+}
+
+.profile_settings{
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.profile_user{
+    margin-left: 1.2rem;
+    font-size: 1.2rem;
+}
+
+
+.header_section-lower{
+    margin-top: 3vh;
+    margin-bottom: 1.5vh;
+    align-items: center;
+}
+
+.profile_pic-lower{
+    margin-right: 2rem;
+}
+
+.profile_user-info{
+    margin-top: 0.6rem;
+}
+
+.saludo_user{
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+}
+
+.user_name{
+    font-size: 1.3rem;
+}
+
+.header_btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #6bc220;
+    margin: 0 0.8rem;
+    color: white;
+    font-weight: 800;
+    transition: 0.3s ease;
+}
+
+.header_btn:hover{
+    background-color: white;
+    color: #6bc220;
+    transform: scale(1.1);
+}
+
+.search_bar{
+    transition: 0.3s ease;
+}
+
+.search_bar:hover{
+    transform: scale(1.1);
+    color: #6bc220;
+}
+
+.profile_buttons{
+    margin-left: 25rem;
 }
